@@ -16,6 +16,6 @@
 
 1. **Link to the Project Report** -
 2. **Link to the Project Presentation Slides** -
-3. **Link to the Performance Report** -
+3. **Link to the Performance Report** - https://docs.google.com/document/d/1m5envVqRT2q_MhDx94v8oir9KzAJV_Alr0njKWJH8Rs/edit?usp=sharing
 
 ---
