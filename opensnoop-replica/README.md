@@ -1,4 +1,4 @@
-# Opensnoop-replica (Tool for enrypted File Redirection)
+# Opensnoop-replica (Tool for encrypted File Redirection)
 ## Description
 Traces syscalls at kernel level and safely prompts the user to manually redirect to the encrypted file location.
 
