@@ -34,7 +34,7 @@ Before running the tool, ensure the following are installed and configured on yo
    chmod +x ecli
 3. **Compile the EBPF Program**
    ```bash
-   ./ecc file-encryption.bpf.c
+   ./ecc file-rerouting.bpf.c
 4. **Run the EBPF program by attacking it to the kernel**
    ```bash
    sudo ./ecli run package.json
