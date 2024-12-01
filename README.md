@@ -1,5 +1,5 @@
 # Encrypting Files using System Call Filters
-## Operating Systems (CS3500, Fall 2024) - Group 6 - Batch of 2026, IIT Madras
+## Operating Systems (CS3500, Fall 2024) - Group 5 - Batch of 2026, IIT Madras
 
 ### Parts of the Repository
 
