@@ -14,9 +14,8 @@
 
 ### Other Links
 
-1. **Link to the Github Repository** -
-2. **Link to the Project Report** -
-3. **Link to the Project Presentation Slides** -
-4. **Link to the Performance Report** -
+1. **Link to the Project Report** -
+2. **Link to the Project Presentation Slides** -
+3. **Link to the Performance Report** -
 
 ---
