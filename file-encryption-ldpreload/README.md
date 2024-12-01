@@ -6,8 +6,11 @@ This project implements a file protection system that intercepts file system cal
 
 ## Required phython libraries
 
-    sudo apt install phython3-tk
+    sudo apt install python3-tk
+    sudo apt install python3-pyxattr
     pip3 install pycryptodome keyring pyxattr
+    pip install cryptography
+    sudo apt-get install libglib2.0-dev
 
 
 # File Descriptions:
@@ -24,6 +27,23 @@ This project implements a file protection system that intercepts file system cal
 ## password_verification.py:
 1. Verifies user passwords against stored hashes. 
 2. Decrypts file names if the correct password is provided.
+
+# How It Works
+1. Intercepting open() Calls:
+   - When a file is opened, the library checks for the user.password_protect attribute.
+    - If set, it invokes the password verification script (password_verification.py).
+
+2. Encrypting File Names:
+    - When a new file is created, users are prompted to set a password.
+    - The file name is encrypted using AES and stored as a hidden file.
+    - A placeholder file is created with a warning message.
+
+3. Intercepting write() Calls:
+    - Ensures that any writes to protected files are redirected to the encrypted hidden file.
+
+4. Extended Attributes:
+    - user.password_protect: Indicates if the file is password-protected.
+    - user.hidden_file: Stores the encrypted, hidden file name.
 
 # Running Instructions:
 
