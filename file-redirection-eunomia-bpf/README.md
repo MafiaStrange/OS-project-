@@ -1,8 +1,11 @@
 # eBPF File Re-Direction Tool
 
-## Description
+# Project Description
 
-This project is an **eBPF-based tool** designed to **encrypt and decrypt files** under a specific directory (`/home/vboxuser/Encrypted/`). It hooks into system calls like `openat`, `read`, and `write` to modify file data on-the-fly, ensuring that data is stored in an encrypted form and decrypted during read operations. The tool is implemented using eBPF and leverages **eunomia-bpf** for compilation, kernel attachment, and runtime management.
+This project is an **eBPF-based tool** designed to provide **file encryption and decryption** capabilities for files within a specific directory (`/home/vboxuser/encrypted/`). It intercepts system calls such as `openat`, `read`, and `write` to dynamically **encrypt data during writes** and **decrypt data during reads**, ensuring that files are stored securely in an encrypted format.
+
+The implementation uses **eBPF** programs to operate in kernel space and employs the **eunomia-bpf toolkit** for efficient compilation, kernel attachment, and runtime management. By leveraging the flexibility of eBPF, this tool achieves transparent encryption and decryption without requiring modifications to user-space applications.
+
 
 ---
 
