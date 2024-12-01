@@ -14,8 +14,8 @@
 
 ### Other Links
 
-1. **Link to the Project Report** -
-2. **Link to the Project Presentation Slides** -
+1. **Link to the Project Report** - https://www.canva.com/design/DAGX9VP3kug/rET1XNRbfkILSNbggpp8UQ/edit?utm_content=DAGX9VP3kug&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+2. **Link to the Project Presentation Slides** - https://www.canva.com/design/DAGXpakc3PU/B_bPAFgz0R5reE_XJwl2Cg/edit?utm_content=DAGXpakc3PU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 3. **Link to the Performance Report** - https://docs.google.com/document/d/1m5envVqRT2q_MhDx94v8oir9KzAJV_Alr0njKWJH8Rs/edit?usp=sharing
 
 ---
