@@ -4,7 +4,7 @@ This project implements a file protection system that intercepts file system cal
 
 # Prerequisites:
 
-## Required phython libraries
+## Required python libraries
 
     sudo apt install python3-tk
     sudo apt install python3-pyxattr
